@@ -1,0 +1,117 @@
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body {
+background-color: rgb(169, 169, 178);
+}
+.form_card {
+max-width: 600px;
+margin: 60px auto;
+background: white;
+border-radius: 10px;
+padding: 20px;
+}
+.header {
+padding: 20px 0;
+}
+.lable {
+font-weight: 600;
+}
+.name_input {
+display: flex;
+justify-content: center;
+border: 1px black solid;
+gap: 0;
+}
+.name_input input {
+margin: 0;
+width: 50%;
+padding: 10px;
+}
+.email_input {
+margin-top: 10px;
+}
+.email_input input {
+width: 100%;
+padding: 10px;
+}
+.Username_input {
+margin-top: 10px;
+}
+.Username_input input {
+width: 100%;
+padding: 10px;
+}
+.Password_input {
+margin-top: 10px;
+}
+.Password_input input {
+width: 100%;
+padding: 10px;
+}
+.flex_inputs {
+display: flex;
+gap: 10px;
+margin: 10px 0;
+}
+.gender_input {
+width: 20%;
+display: flex;
+flex-direction: column;
+}
+select {
+padding: 10px;
+}
+.birthday_col {
+width: 80%;
+}
+.birthday_input {
+display: flex;
+}
+.birthday_input input {
+width: 33%;
+padding: 10px;
+}
+.terms {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.terms input {
+    width: 12px;
+    height: 12px;
+}
+
+.terms a,
+.login-link a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+button {
+    width: 10%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background: #8bc34a;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #7cb342;
+    text-align: center;
+}
+
+.login-link {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}

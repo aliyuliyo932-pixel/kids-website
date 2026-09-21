@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #17203a;
+}
+
+/* HEADER */
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background: white;
+}
+
+.logo h2 {
+    font-size: 2px;
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+nav a,
+.header-buttons a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+    border: none;
+    background: #3cbf9b;
+    color: white;
+
+    padding: 12px 22px;
+    border-radius: 25px;
+
+    cursor: pointer;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    max-width: 1200px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 70px 50px;
+    background: white;
+}
+
+.hero-text {
+    width: 55%;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+}
+
+.hero-text span {
+    color: #42c5a2;
+}
+
+.hero-text p {
+    color: #777;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+.hero-text a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero-image {
+    width: 40%;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+
+/* ACTIVITY CARDS */
+
+.activities {
+    max-width: 1100px;
+    margin: 40px auto 50px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.card {
+    border-radius: 15px;
+    padding: 20px 15px 0;
+    min-height: 250px;
+
+    overflow: hidden;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.card img {
+    width: 10%;
+}
+
+.yellow {
+    background: #ffe882;
+}
+
+.purple {
+    background: #ded6ff;
+}
+
+.green {
+    background: #bfead3;
+}
+
+
+.blue {
+    background: #bde1f3;
+}
+
+
+/* PURPLE SECTION */
+
+.learning {
+    max-width: 1100px;
+    margin: 40px auto;
+
+    background: #7563dc;
+    color: white;
+
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 40px 50px;
+}
+
+.learning h2 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.learning p {
+    max-width: 400px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+
+.learning a {
+    color: white;
+    text-decoration: none;
+}
+
+.learning img {
+    width: 40%;
+}
+
+
+/* STATISTICS */
+
+.statistics {
+    max-width: 1100px;
+    margin: auto;
+
+    background: #eef8f3;
+
+    padding: 30px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    text-align: center;
+
+    border-radius: 15px;
+}
+
+.statistics h2 {
+    font-size: 35px;
+}
+
+.statistics p {
+    color: #777;
+}
+
+
+/* KNOWLEDGE SECTION */
+
+.knowledge {
+    max-width: 1100px;
+    margin: 50px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 30px;
+}
+
+.knowledge-text {
+    width: 45%;
+}
+
+.knowledge-text h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.knowledge-text p {
+    line-height: 1.7;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+.knowledge-image {
+    width: 45%;
+}
+
+.knowledge-image img {
+    width: 100%;
+}
